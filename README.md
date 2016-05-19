@@ -2,7 +2,11 @@
 个人cocoapods私有仓库repo
 
 # 使用
-Podfile文件内容示例
+添加我的repo到cocoapods的repo里
+```
+pod repo add ZZYRepo https://github.com/zzyhappyzzy/ZZYRepo.git
+```
+Podfile文件内容，示例
 ```
 platform :ios, '7.0'
 
